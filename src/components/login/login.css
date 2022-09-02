@@ -1,7 +1,8 @@
 .containerPrincipal{
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(-24deg, rgba(215,226,238,1) 0%, rgba(200,190,255,1) 45%, rgba(241,182,182,0.6843779748227417) 100%);
+    /* background: linear-gradient(-24deg, rgba(215,226,238,1) 0%, rgba(200,190,255,1) 45%, rgba(241,182,182,0.6843779748227417) 100%); */
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .bannerLogin{
@@ -39,6 +40,7 @@ input{
     border: none;
     height: 30px;
     padding-left: 20px;
+    padding-right: 20px;
     outline: none;
 }
 
@@ -52,6 +54,7 @@ input{
     cursor: pointer;
     background-color: rgb(249, 71, 71);
     color: white;
+    margin-left: 100px;
 }
 
 .divText{
